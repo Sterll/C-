@@ -1,0 +1,4 @@
+C:\Users\yanis\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/yanis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S E:\Developpement\C++\Learn2 -B E:\Developpement\C++\Learn2\cmake-build-debug
+-- Configuring done (9.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: E:/Developpement/C++/Learn2/cmake-build-debug

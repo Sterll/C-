@@ -1,0 +1,21 @@
+#ifndef GIMAIN
+#define GIMAIN
+
+#include <QMainWindow>
+
+QT_BEGIN_NAMESPACE
+namespace Ui { class GIMain; }
+QT_END_NAMESPACE
+
+class GIMain : public QMainWindow
+{
+    Q_OBJECT
+
+public:
+    GIMain(QWidget *parent = nullptr);
+    ~GIMain();
+
+private:
+    Ui::GIMain *ui;
+};
+#endif // GIMAIN

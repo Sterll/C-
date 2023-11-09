@@ -1,0 +1,15 @@
+#include "GIMain"
+#include "./ui_GIInterface.h"
+
+GIMain::GIMain(QWidget *parent)
+    : QMainWindow(parent)
+    , ui(new Ui::GIMain)
+{
+    ui->setupUi(this);
+}
+
+GIMain::~GIMain()
+{
+    delete ui;
+}
+
